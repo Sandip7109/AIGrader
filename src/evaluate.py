@@ -9,8 +9,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 CORS(app, origins='*')
-
-os.environ["OPENAI_API_KEY"]= ""
+os.environ["OPENAI_API_KEY"]= "key"
 
 client = openai.Client()
 
