@@ -10,8 +10,7 @@ app = Flask(__name__)
 CORS(app)
 CORS(app, origins='*')
 
-#openai.api_key = "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"
-os.environ["OPENAI_API_KEY"]= "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"
+os.environ["OPENAI_API_KEY"]= "key"
 
 client = openai.Client()
 
